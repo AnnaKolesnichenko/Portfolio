@@ -30,6 +30,14 @@ export const AboutPartsStyled = styled.div`
   } */
 `;
 
+export const AboutMainTitle = styled.h1`
+  text-align: center;
+  font-size: 22px;
+  color: #e2e8f0;
+  margin-top: 0;
+  text-transform: uppercase;
+`;
+
 export const MainTitle = styled.h1`
   margin: 0;
   margin-top: 10px;

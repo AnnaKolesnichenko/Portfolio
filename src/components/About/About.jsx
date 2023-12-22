@@ -5,11 +5,13 @@ import {
   SecondaryTitle,
   AboutPartsStyled,
   AboutMeMainStyled,
+  AboutMainTitle,
 } from './About.styled';
 
 const About = () => {
   return (
     <AboutStyled>
+      <AboutMainTitle>About me</AboutMainTitle>
       <AboutPartsStyled style={{ alignContent: 'flex-start' }}>
         <MainTitle>Hello, I am Anna!</MainTitle>
         <SecondaryTitle>Junior Front-End Developer</SecondaryTitle>

@@ -48,8 +48,8 @@ export const TechItemStyled = styled.li`
 `;
 
 export const TechImgStyled = styled.img`
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 `;
 
 export const TechNameStyled = styled.span`
