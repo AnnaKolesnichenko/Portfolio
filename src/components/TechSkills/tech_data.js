@@ -7,7 +7,7 @@ import react_native_logo from '../../images/React-icon.svg.png';
 import redux_logo from '../../images/redux.svg';
 import rest_logo from '../../images/rest-api-1.svg';
 import sass_logo from '../../images/sass.png';
-import styled_components from '../../images/styled.png';
+// import styled_components from '../../images/styled.png';
 
 export const Tech = [
   {
