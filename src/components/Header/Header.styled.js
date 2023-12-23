@@ -6,7 +6,7 @@ export const HeaderStyled = styled.div`
   margin-left: auto;
   margin-right: auto;
   background-color: #0f1933;
-  max-width: 95%;
+  max-width: 1024px;
 `;
 
 export const NavStyled = styled.ul`
@@ -27,8 +27,8 @@ export const NavItemStyled = styled.li`
   letter-spacing: 1.3;
   font-weight: bold;
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 
   //color: #2e6484;
   border-bottom: 2px solid transparent;
@@ -49,5 +49,15 @@ export const NavItemStyled = styled.li`
 
   &:hover::before {
     width: 100%;
+    background-color: white;
+  }
+`;
+
+export const NavLinkStyled = styled.a`
+  text-decoration: none;
+  color: #94a3b8;
+
+  &:hover {
+    color: white;
   }
 `;

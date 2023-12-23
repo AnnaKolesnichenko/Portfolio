@@ -10,7 +10,7 @@ import {
 
 const About = () => {
   return (
-    <AboutStyled>
+    <AboutStyled id="about">
       <AboutMainTitle>About me</AboutMainTitle>
       <AboutPartsStyled style={{ alignContent: 'flex-start' }}>
         <MainTitle>Hello, I am Anna!</MainTitle>

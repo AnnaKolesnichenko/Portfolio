@@ -10,7 +10,7 @@ import { Tech } from './tech_data';
 
 const TechSkills = () => {
   return (
-    <TechStyled>
+    <TechStyled id="skills">
       <div>
         <MainTitleStyled>SKILLS</MainTitleStyled>
       </div>

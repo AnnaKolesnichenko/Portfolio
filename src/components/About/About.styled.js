@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import back from '../../images/backgrounds/back.avif';
 
 export const AboutStyled = styled.div`
   display: flex;
@@ -6,36 +7,34 @@ export const AboutStyled = styled.div`
   //gap: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 25px;
+  padding: 40px 20px;
   box-sizing: border-box;
   background-color: #0f1933;
-  max-width: 95%;
+  max-width: 1024px;
   border-top: 2px solid #182544;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.5),
+      rgba(46, 47, 66, 0.5)
+    ),
+    url(${back});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 `;
 
 export const AboutPartsStyled = styled.div`
   width: calc((100% - 90px) / 2);
-  /* position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 10px;
-    left: 0;
-    width: 50%;
-    height: 2px;
-    background-color: #1a294f;
-  } */
 `;
 
 export const AboutMainTitle = styled.h1`
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
   color: #e2e8f0;
   margin-top: 0;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const MainTitle = styled.h1`
@@ -43,21 +42,21 @@ export const MainTitle = styled.h1`
   margin-top: 10px;
   color: #e2e8f0;
   font-size: 48px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1;
 `;
 
 export const SecondaryTitle = styled.h2`
   color: #e2e8f0;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1;
 `;
 
 export const DescriptionStyled = styled.p`
   color: #94a3b8;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1;
   position: relative;
 
@@ -70,7 +69,7 @@ export const DescriptionStyled = styled.p`
     left: 0;
     width: 70%;
     height: 1px;
-    background-color: #1a294f;
+    background-color: #94a3b8;
   }
 `;
 
@@ -78,6 +77,6 @@ export const AboutMeMainStyled = styled.p`
   margin-top: 20px;
   color: #94a3b8;
   font-size: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1;
 `;

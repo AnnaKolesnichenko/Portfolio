@@ -9,7 +9,7 @@ import { CreatedApps } from './apps';
 
 const Works = () => {
   return (
-    <AppsStyled>
+    <AppsStyled id="projects">
       <ProjectsTitleStyled>Projects</ProjectsTitleStyled>
       <AppsListStyled>
         {CreatedApps.map(work => (

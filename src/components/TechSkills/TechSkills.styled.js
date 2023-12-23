@@ -6,18 +6,19 @@ export const TechStyled = styled.div`
   gap: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 25px;
+  padding: 40px 20px;
   box-sizing: border-box;
   background-color: #0f1933;
-  max-width: 95%;
+  max-width: 1024px;
   border-top: 2px solid #182544;
 `;
 
 export const MainTitleStyled = styled.h1`
   text-align: center;
-  font-size: 22px;
+  font-size: 24px;
   color: #e2e8f0;
   margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
 `;
 
 export const TechListStyled = styled.ul`
@@ -26,6 +27,8 @@ export const TechListStyled = styled.ul`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 974px;
+
   gap: 30px;
   list-style: none;
   margin: 0;
@@ -44,6 +47,7 @@ export const TechItemStyled = styled.li`
   &:hover {
     transform: scale(115%);
     transition: transform 500ms ease;
+    cursor: pointer;
   }
 `;
 
@@ -54,4 +58,5 @@ export const TechImgStyled = styled.img`
 
 export const TechNameStyled = styled.span`
   color: #94a3b8;
+  font-family: 'Montserrat', sans-serif;
 `;
