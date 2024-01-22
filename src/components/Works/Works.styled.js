@@ -66,7 +66,7 @@ export const ItemOverlayStyled = styled.div`
   left: 0;
   width: 300px;
   height: 210px;
-  padding: 10px 15px;
+  padding: 5px 5px;
   /* padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px; */
