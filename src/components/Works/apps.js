@@ -58,17 +58,17 @@ export const CreatedApps = [
     code: 'https://github.com/AnnaKolesnichenko/goit-react-hw-08-phonebook',
     role: 'Role: developer',
   },
-  {
-    id: '6a',
-    image: converter,
-    title:
-      'Handy app, showing current currency rate for a chosen currency (UAH) and letting make exchanges both ways',
-    techs:
-      'HTML, CSS, ReactJS, RESP API,React libraries, StyledComponents, axios',
-    appLink: 'https://annakolesnichenko.github.io/currency-converter/',
-    code: 'https://github.com/AnnaKolesnichenko/currency-converter',
-    role: 'Role: developer. Test-assignment',
-  },
+  // {
+  //   id: '6a',
+  //   image: converter,
+  //   title:
+  //     'Handy app, showing current currency rate for a chosen currency (UAH) and letting make exchanges both ways',
+  //   techs:
+  //     'HTML, CSS, ReactJS, RESP API,React libraries, StyledComponents, axios',
+  //   appLink: 'https://annakolesnichenko.github.io/currency-converter/',
+  //   code: 'https://github.com/AnnaKolesnichenko/currency-converter',
+  //   role: 'Role: developer. Test-assignment',
+  // },
   {
     id: '7a',
     image: car_dealership,
