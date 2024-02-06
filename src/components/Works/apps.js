@@ -3,7 +3,7 @@ import webstudio from '../../images/apps/web_design.jpeg';
 import image_searcher from '../../images/apps/imagers.jpeg';
 import trending_movies from '../../images/apps/trending_movies.jpeg';
 import phonebook from '../../images/apps/phonebook.jpeg';
-import converter from '../../images/apps/converter.jpeg';
+//import converter from '../../images/apps/converter.jpeg';
 import car_dealership from '../../images/apps/rent_car.jpeg';
 import food_delivery from '../../images/apps/food_app.jpeg';
 import cinemania from '../../images/apps/cinemania.jpeg';
