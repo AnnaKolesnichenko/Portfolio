@@ -74,7 +74,7 @@ const Certificates = () => {
         <EducationItemStyled>
           <GiGraduateCap style={{ fill: '#94a3b8' }} />
           <EducationCourseStyled>
-            Master's Degree in English Language and Literature
+            Master's Degree (English Language and Literature)
           </EducationCourseStyled>
           <EducationByStyled>Kyiv Slavistic Univestity</EducationByStyled>
           <EducationDateStyled>June, 2002</EducationDateStyled>
