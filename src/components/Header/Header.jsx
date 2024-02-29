@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import {
   HeaderStyled,
   NavItemStyled,
@@ -5,14 +6,31 @@ import {
   NavLinkStyled,
 } from './Header.styled';
 
+const Links = [
+  { href: '/', title: 'Home' },
+  { href: '#about', title: 'About' },
+  { href: '#projects', title: 'Projects' },
+  { href: '#certificates', title: 'Certificates' },
+  { href: '#skills', title: 'Skills' },
+  { href: '#contacts', title: 'Contacts' },
+];
+
 const Header = () => {
   return (
     <HeaderStyled id="nav">
       <NavStyled>
-        <NavItemStyled>
-          <NavLinkStyled href="/">Home</NavLinkStyled>
-        </NavItemStyled>
-        <NavItemStyled>
+        {Links.map(link => (
+          <NavItemStyled
+            as={motion.li}
+            initial={{ scale: 1 }}
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 1, type: 'spring', bounce: 0.7 }}
+          >
+            <NavLinkStyled href={link.href}>{link.title}</NavLinkStyled>
+          </NavItemStyled>
+        ))}
+
+        {/* <NavItemStyled>
           <NavLinkStyled href="#about">About</NavLinkStyled>
         </NavItemStyled>
         <NavItemStyled>
@@ -26,7 +44,7 @@ const Header = () => {
         </NavItemStyled>
         <NavItemStyled>
           <NavLinkStyled href="#contacts">Contacts</NavLinkStyled>
-        </NavItemStyled>
+        </NavItemStyled> */}
       </NavStyled>
     </HeaderStyled>
   );

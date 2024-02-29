@@ -15,6 +15,7 @@ import {
 } from './Certificates.styled';
 import ImageFullSize from './ImageFullSize';
 import { Awards } from './awards';
+import { AnimatePresence } from 'framer-motion';
 
 const Certificates = () => {
   const [showFullImg, setShowFullImg] = useState(false);
@@ -41,13 +42,15 @@ const Certificates = () => {
           ))}
         </CertifiListStyled>
 
-        {showFullImg && (
-          <ImageFullSize
-            img={selectedAward.image}
-            description={selectedAward.title}
-            handleClose={handleClose}
-          />
-        )}
+        <AnimatePresence>
+          {showFullImg && (
+            <ImageFullSize
+              img={selectedAward.image}
+              description={selectedAward.title}
+              handleClose={handleClose}
+            />
+          )}
+        </AnimatePresence>
       </CertifiListStyled>
       <EducationListStyled>
         <EducationItemStyled>

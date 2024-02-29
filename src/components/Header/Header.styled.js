@@ -34,6 +34,8 @@ export const NavItemStyled = styled.li`
   border-bottom: 2px solid transparent;
   padding-bottom: 8px;
   position: relative;
+  z-index: 1;
+  cursor: pointer;
 
   &::before {
     content: '';
@@ -51,13 +53,16 @@ export const NavItemStyled = styled.li`
     width: 100%;
     background-color: white;
   }
+  &:hover a {
+    color: white;
+  }
 `;
 
 export const NavLinkStyled = styled.a`
   text-decoration: none;
   color: #94a3b8;
 
-  &:hover {
+  /* &:hover {
     color: white;
-  }
+  } */
 `;

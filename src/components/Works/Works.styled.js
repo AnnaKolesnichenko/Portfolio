@@ -73,7 +73,7 @@ export const ItemOverlayStyled = styled.div`
   background: rgba(255, 255, 255, 0.5);
   opacity: 1;
   transform: translateY(100%);
-  transition: transform 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 900ms cubic-bezier(0.4, 0, 0.2, 1);
 
   ${WorkItemStyled}:hover & {
     cursor: pointer;

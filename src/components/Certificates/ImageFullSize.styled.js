@@ -3,6 +3,9 @@ import { IoClose } from 'react-icons/io5';
 
 export const Backdrop = styled.div`
   position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   width: 100vw;
   top: 0;
@@ -16,9 +19,10 @@ export const Backdrop = styled.div`
 
 export const Modal = styled.div`
   position: absolute;
-  top: 50%;
+
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   /* width: 200px;
   height: 200px; */
   background: #fff;

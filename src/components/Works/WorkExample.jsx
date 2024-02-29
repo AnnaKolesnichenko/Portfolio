@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import {
   AppImgStyled,
   AppItemStyled,
@@ -17,7 +18,12 @@ const WorkExample = ({ work }) => {
           <AppImgStyled src={work.image} alt={work.title} />
         </AppItemStyled>
 
-        <ItemOverlayStyled>
+        <ItemOverlayStyled
+        // as={motion.div}
+        // initial={{ y: 150, opacity: 0 }}
+        // whileHover={{ y: 0, opacity: 1 }}
+        // transition={{ duration: 0.3, bounce: 0.9 }}
+        >
           <OverlayContainerStyled>
             <div>
               <AppTitleStyled>{work.techs}</AppTitleStyled>
