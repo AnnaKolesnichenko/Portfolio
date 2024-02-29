@@ -13,11 +13,13 @@ import mimino from '../../images/apps/mimino.jpeg';
 export const CreatedApps = [
   {
     id: '1a',
-    image: bose,
-    title: 'BOSE_NC_700 product advertising',
-    techs: 'HTML, CSS, responsive design',
-    appLink: 'https://annakolesnichenko.github.io/bose_NC_700/',
-    code: 'https://github.com/AnnaKolesnichenko/bose_NC_700',
+    image: food_delivery,
+    title:
+      'Food delivery, to choose from given menu, convenient search based on many params',
+    techs:
+      'HTML, CSS, ReactJS, Redux, Redux Toolkit, React libraries, StyledComponents, axios',
+    appLink: 'https://annakolesnichenko.github.io/food-app/',
+    code: 'https://github.com/AnnaKolesnichenko/food-app',
     role: 'Role: developer',
   },
   {
@@ -81,13 +83,11 @@ export const CreatedApps = [
   },
   {
     id: '8a',
-    image: food_delivery,
-    title:
-      'Food delivery, to choose from given menu, convenient search based on many params',
-    techs:
-      'HTML, CSS, ReactJS, Redux, Redux Toolkit, React libraries, StyledComponents, axios',
-    appLink: 'https://annakolesnichenko.github.io/food-app/',
-    code: 'https://github.com/AnnaKolesnichenko/food-app',
+    image: bose,
+    title: 'BOSE_NC_700 product advertising',
+    techs: 'HTML, CSS, responsive design',
+    appLink: 'https://annakolesnichenko.github.io/bose_NC_700/',
+    code: 'https://github.com/AnnaKolesnichenko/bose_NC_700',
     role: 'Role: developer',
   },
   {
