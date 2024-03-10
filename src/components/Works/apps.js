@@ -4,6 +4,7 @@ import image_searcher from '../../images/apps/imagers.jpeg';
 import trending_movies from '../../images/apps/trending_movies.jpeg';
 import phonebook from '../../images/apps/phonebook.jpeg';
 //import converter from '../../images/apps/converter.jpeg';
+import medic_app from '../../images/apps/medic-app.jpeg';
 import car_dealership from '../../images/apps/rent_car.jpeg';
 import food_delivery from '../../images/apps/food_app.jpeg';
 import cinemania from '../../images/apps/cinemania.jpeg';
@@ -24,13 +25,15 @@ export const CreatedApps = [
   },
   {
     id: '2a',
-    image: webstudio,
-    title: 'WebDesignStudio',
-    techs: 'HTML, CSS, responsive design',
-    appLink: 'https://annakolesnichenko.github.io/goit-markup-hw-07/',
-    code: 'https://github.com/AnnaKolesnichenko/goit-markup-hw-07',
-    role: 'Role: developer',
+    image: medic_app,
+    title: '',
+    techs:
+      'HTML, CSS, JS, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
+    appLink: 'https://valeru4.github.io/mimino-team-project/',
+    code: 'https://github.com/Valeru4/mimino-team-project',
+    role: 'Team Project. Role: Header, 2-room apt booking',
   },
+
   {
     id: '3a',
     image: image_searcher,
@@ -117,5 +120,14 @@ export const CreatedApps = [
     appLink: 'https://valeru4.github.io/mimino-team-project/',
     code: 'https://github.com/Valeru4/mimino-team-project',
     role: 'Team Project. Role: Header, 2-room apt booking',
+  },
+  {
+    id: '12a',
+    image: webstudio,
+    title: 'WebDesignStudio',
+    techs: 'HTML, CSS, responsive design',
+    appLink: 'https://annakolesnichenko.github.io/goit-markup-hw-07/',
+    code: 'https://github.com/AnnaKolesnichenko/goit-markup-hw-07',
+    role: 'Role: developer',
   },
 ];
