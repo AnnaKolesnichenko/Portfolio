@@ -27,7 +27,7 @@ export const MainTitleStyled = styled.h2`
 export const ContactsListStyled = styled.ul`
   list-style: none;
   margin: 0;
-  width: 974px;
+  max-width: 974px;
   align-items: center;
   justify-content: center;
   padding: 0;

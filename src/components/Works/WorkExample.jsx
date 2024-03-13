@@ -14,7 +14,11 @@ const WorkExample = ({ work }) => {
     <>
       <WorkItemStyled>
         <AppItemStyled>
-          <AppImgStyled src={work.image} alt={work.title} />
+          <AppImgStyled
+            src={work.image}
+            alt={work.title}
+            style={{ width: '300px', height: '180px' }}
+          />
         </AppItemStyled>
 
         <ItemOverlayStyled

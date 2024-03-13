@@ -27,7 +27,7 @@ export const TechListStyled = styled.ul`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 974px;
+  max-width: 974px;
 
   gap: 30px;
   list-style: none;
@@ -57,6 +57,9 @@ export const TechImgStyled = styled.img`
 `;
 
 export const TechNameStyled = styled.span`
+  display: block;
+  width: 110px;
   color: #94a3b8;
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 `;

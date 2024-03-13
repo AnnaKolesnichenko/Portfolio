@@ -4,7 +4,6 @@ import back from '../../images/backgrounds/back.avif';
 export const AboutStyled = styled.div`
   display: flex;
   flex-direction: column;
-  //gap: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px 20px;
@@ -26,6 +25,11 @@ export const AboutStyled = styled.div`
 
 export const AboutPartsStyled = styled.div`
   width: calc((100% - 90px) / 2);
+  transition: width 0.3s ease-in-out;
+
+  @media (max-width: 800px) {
+    width: calc(100% - 20px);
+  }
 `;
 
 export const AboutMainTitle = styled.h1`

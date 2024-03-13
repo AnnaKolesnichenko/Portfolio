@@ -31,6 +31,7 @@ export const App = () => {
         backgroundRepeat: 'norepeat',
         backgroundSize: 'cover',
         height: '100%',
+        width: '100%',
       }}
     >
       <Header />

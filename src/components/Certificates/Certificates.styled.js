@@ -26,9 +26,15 @@ export const CertifMainTitle = styled.h1`
 export const CertifiListStyled = styled.ul`
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
   margin: 0;
   padding: 0;
+
+  @media (max-width: 800px) {
+    gap: 10px;
+  }
 `;
 
 export const CertifItemStyled = styled.li`
@@ -38,6 +44,11 @@ export const CertifItemStyled = styled.li`
 export const CertifImgStyled = styled.img`
   width: auto;
   height: 150px;
+
+  @media (max-width: 800px) {
+    gap: 10px;
+    height: 100px;
+  }
 `;
 
 export const EducationListStyled = styled.ul`

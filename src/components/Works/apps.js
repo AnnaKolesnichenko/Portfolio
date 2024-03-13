@@ -4,7 +4,7 @@ import image_searcher from '../../images/apps/imagers.jpeg';
 import trending_movies from '../../images/apps/trending_movies.jpeg';
 import phonebook from '../../images/apps/phonebook.jpeg';
 //import converter from '../../images/apps/converter.jpeg';
-import medic_app from '../../images/apps/medic-app.jpeg';
+import medic_app from '../../images/apps/1AE5A43C-AA6A-4ABD-8120-A53C75DF756E.jpeg';
 import car_dealership from '../../images/apps/rent_car.jpeg';
 import food_delivery from '../../images/apps/food_app.jpeg';
 import cinemania from '../../images/apps/cinemania.jpeg';
@@ -18,7 +18,7 @@ export const CreatedApps = [
     title:
       'Food delivery, to choose from given menu, convenient search based on many params',
     techs:
-      'HTML, CSS, ReactJS, Redux, Redux Toolkit, React libraries, StyledComponents, axios',
+      'HTML, ReactJS, Redux, Redux Toolkit, React libraries, StyledComponents, axios',
     appLink: 'https://annakolesnichenko.github.io/food-app/',
     code: 'https://github.com/AnnaKolesnichenko/food-app',
     role: 'Role: developer',
@@ -27,11 +27,10 @@ export const CreatedApps = [
     id: '2a',
     image: medic_app,
     title: '',
-    techs:
-      'HTML, CSS, JS, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
-    appLink: 'https://valeru4.github.io/mimino-team-project/',
-    code: 'https://github.com/Valeru4/mimino-team-project',
-    role: 'Team Project. Role: Header, 2-room apt booking',
+    techs: 'HTML, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
+    appLink: 'annakolesnichenko.github.io/medic-app/',
+    code: 'https://github.com/AnnaKolesnichenko/medic-app',
+    role: 'Test assignment. Role: developer',
   },
 
   {

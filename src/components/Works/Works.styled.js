@@ -18,8 +18,9 @@ export const AppsStyled = styled.div`
 export const AppsListStyled = styled.ul`
   list-style: none;
   margin: 0;
-  width: 974px;
+  max-width: 974px;
   align-items: center;
+  justify-content: center;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -38,11 +39,13 @@ export const ProjectsTitleStyled = styled.h1`
 
 export const AppItemStyled = styled.a`
   width: 300px;
+  height: 180px;
   //display: block;
 `;
 
 export const AppImgStyled = styled.img`
   width: 300px;
+  height: 180px;
   height: auto;
 `;
 
@@ -100,7 +103,7 @@ export const ButtonContainerStyled = styled.div`
 export const AppTitleStyled = styled.h2`
   text-align: center;
   font-size: 14px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   color: #0f1933;
 `;

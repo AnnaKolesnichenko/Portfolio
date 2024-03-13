@@ -12,13 +12,20 @@ export const HeaderStyled = styled.div`
 export const NavStyled = styled.ul`
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
   justify-content: flex-end;
   align-items: flex-end;
   gap: 35px;
   box-sizing: border-box;
   list-style: none;
   margin: 0;
-  padding: 30px 25px;
+  padding: 30px;
+  transition: padding 0.3s ease-in-out, gap 0.3s ease-in-out;
+
+  @media (max-width: 800px) {
+    gap: 20px;
+    padding: 20px;
+  }
 `;
 
 export const NavItemStyled = styled.li`
@@ -32,7 +39,7 @@ export const NavItemStyled = styled.li`
 
   //color: #2e6484;
   border-bottom: 2px solid transparent;
-  padding-bottom: 8px;
+  //padding-bottom: 8px;
   position: relative;
   z-index: 1;
   cursor: pointer;
