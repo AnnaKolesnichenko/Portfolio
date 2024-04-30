@@ -26,9 +26,9 @@ export const CreatedApps = [
   {
     id: '2a',
     image: medic_app,
-    title: '',
+    title: 'Search and price compare medications',
     techs: 'HTML, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
-    appLink: 'annakolesnichenko.github.io/medic-app/',
+    appLink: 'https://annakolesnichenko.github.io/medic-app/',
     code: 'https://github.com/AnnaKolesnichenko/medic-app',
     role: 'Test assignment. Role: developer',
   },
