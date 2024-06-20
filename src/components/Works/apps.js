@@ -10,10 +10,11 @@ import food_delivery from '../../images/apps/food_app.jpeg';
 import cinemania from '../../images/apps/cinemania.jpeg';
 import goosetrack from '../../images/apps/goose_track.jpeg';
 import mimino from '../../images/apps/mimino.jpeg';
+import { v4 as uuidv4 } from 'uuid';
 
 export const CreatedApps = [
   {
-    id: '1a',
+    id: uuidv4(),
     image: food_delivery,
     title:
       'Food delivery, to choose from given menu, convenient search based on many params',
@@ -23,6 +24,24 @@ export const CreatedApps = [
     code: 'https://github.com/AnnaKolesnichenko/food-app',
     role: 'Role: developer',
   },
+  {
+    id: uuidv4(),
+    image: medic_app,
+    title: 'Search and price compare medications',
+    techs: 'HTML, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
+    appLink: 'https://annakolesnichenko.github.io/medic-app/',
+    code: 'https://github.com/AnnaKolesnichenko/medic-app',
+    role: 'Test assignment. Role: developer',
+  },
+  // {
+  //   id: '2a',
+  //   image: medic_app,
+  //   title: 'Search and price compare medications',
+  //   techs: 'HTML, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
+  //   appLink: 'https://annakolesnichenko.github.io/medic-app/',
+  //   code: 'https://github.com/AnnaKolesnichenko/medic-app',
+  //   role: 'Test assignment. Role: developer',
+  // },
   {
     id: '2a',
     image: medic_app,
