@@ -32,7 +32,7 @@ export const CreatedApps = [
     techs: 'HTML, RactJS, NextJS, TypeScript, ReduxToolkit, axios',
     appLink: 'propart-spain-six.vercel.app',
     code: 'https://github.com/AnnaKolesnichenko/propart-spain',
-    role: 'Commercial work. Role: developer',
+    role: 'Commercial project. Role: developer (areas, property card)',
   },
   // {
   //   id: '2a',
