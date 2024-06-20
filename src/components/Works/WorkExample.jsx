@@ -9,6 +9,8 @@ import {
   AppButtonStyled,
 } from './Works.styled';
 
+import { motion } from 'framer-motion';
+
 const WorkExample = ({ work }) => {
   return (
     <>
@@ -34,6 +36,7 @@ const WorkExample = ({ work }) => {
                 {work.role}
               </AppTitleStyled>
             </div>
+
             <ButtonContainerStyled>
               <a
                 href={work.code}
@@ -41,7 +44,20 @@ const WorkExample = ({ work }) => {
                 target="_blank"
                 style={{ textDecoration: 'none' }}
               >
-                <AppButtonStyled>code</AppButtonStyled>
+                <AppButtonStyled
+                  as={motion.div}
+                  initial={{ scale: 1 }}
+                  whileHover={{ scale: 1.1 }}
+                  transition={{
+                    duration: 1,
+                    type: 'spring',
+                    stiffness: 400,
+                    damping: 10,
+                  }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  code
+                </AppButtonStyled>
               </a>
               <a
                 href={work.appLink}
@@ -49,7 +65,20 @@ const WorkExample = ({ work }) => {
                 target="_blank"
                 style={{ textDecoration: 'none' }}
               >
-                <AppButtonStyled>demo app</AppButtonStyled>
+                <AppButtonStyled
+                  as={motion.div}
+                  initial={{ scale: 1 }}
+                  whileHover={{ scale: 1.1 }}
+                  transition={{
+                    duration: 1,
+                    type: 'spring',
+                    stiffness: 400,
+                    damping: 10,
+                  }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  demo
+                </AppButtonStyled>
               </a>
             </ButtonContainerStyled>
           </OverlayContainerStyled>

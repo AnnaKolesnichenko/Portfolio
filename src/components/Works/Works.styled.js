@@ -97,7 +97,7 @@ export const ButtonContainerStyled = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  gap: 10px;
+  gap: 20px;
 `;
 
 export const AppTitleStyled = styled.h2`
@@ -111,7 +111,7 @@ export const AppTitleStyled = styled.h2`
 export const AppButtonStyled = styled.div`
   display: block;
   border: 1px solid #0f1933;
-  padding: 10px 12px;
+  padding: 10px 20px;
   font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
@@ -119,4 +119,11 @@ export const AppButtonStyled = styled.div`
   border: 1px solid #94a3b8;
   border-radius: 2px;
   background-color: #0f1933;
+
+  &:hover,
+  &:active {
+    background-color: #425172;
+    /* color: #0f1933; */
+    border: 1px solid #425172;
+  }
 `;

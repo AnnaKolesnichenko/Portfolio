@@ -11,6 +11,7 @@ import cinemania from '../../images/apps/cinemania.jpeg';
 import goosetrack from '../../images/apps/goose_track.jpeg';
 import mimino from '../../images/apps/mimino.jpeg';
 import propart_spain from '../../images/apps/propart_spain.jpeg';
+import prop_dubai from '../../images/apps/prop_dubai.jpeg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const CreatedApps = [
@@ -34,15 +35,15 @@ export const CreatedApps = [
     code: 'https://github.com/AnnaKolesnichenko/propart-spain',
     role: 'Commercial project. Role: developer (areas, property card)',
   },
-  // {
-  //   id: '2a',
-  //   image: medic_app,
-  //   title: 'Search and price compare medications',
-  //   techs: 'HTML, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
-  //   appLink: 'https://annakolesnichenko.github.io/medic-app/',
-  //   code: 'https://github.com/AnnaKolesnichenko/medic-app',
-  //   role: 'Test assignment. Role: developer',
-  // },
+  {
+    id: uuidv4(),
+    image: prop_dubai,
+    title: 'ProPart Dubai: Your Gateway to Elite Real Estate in the UAE.',
+    techs: 'HTML, RactJS, ReduxToolkit, axios, sass, swiper',
+    appLink: 'prop-dubai.vercel.app/',
+    code: 'https://github.com/AnnaKolesnichenko/prop-dubai',
+    role: 'Commercial project. Role: developer (registration, our services, areas)',
+  },
   {
     id: '2a',
     image: medic_app,
