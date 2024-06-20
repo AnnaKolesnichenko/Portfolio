@@ -10,6 +10,7 @@ import food_delivery from '../../images/apps/food_app.jpeg';
 import cinemania from '../../images/apps/cinemania.jpeg';
 import goosetrack from '../../images/apps/goose_track.jpeg';
 import mimino from '../../images/apps/mimino.jpeg';
+import propart_spain from '../../images/apps/propart_spain.jpeg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const CreatedApps = [
@@ -26,12 +27,12 @@ export const CreatedApps = [
   },
   {
     id: uuidv4(),
-    image: medic_app,
-    title: 'Search and price compare medications',
-    techs: 'HTML, RactJS, ReduxToolkit, axios, Firebase, StyledComponents',
-    appLink: 'https://annakolesnichenko.github.io/medic-app/',
-    code: 'https://github.com/AnnaKolesnichenko/medic-app',
-    role: 'Test assignment. Role: developer',
+    image: propart_spain,
+    title: 'Look for the estate of your dream',
+    techs: 'HTML, RactJS, NextJS, TypeScript, ReduxToolkit, axios',
+    appLink: 'propart-spain-six.vercel.app',
+    code: 'https://github.com/AnnaKolesnichenko/propart-spain',
+    role: 'Commercial work. Role: developer',
   },
   // {
   //   id: '2a',
