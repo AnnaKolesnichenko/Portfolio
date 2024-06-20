@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.13b81f87.css",
-    "main.js": "/portfolio/static/js/main.8d834c92.js",
+    "main.js": "/portfolio/static/js/main.2b34872a.js",
     "static/media/sass.png": "/portfolio/static/media/sass.0a9c581d3cda5f9916f1.png",
     "static/media/trending_movies.jpeg": "/portfolio/static/media/trending_movies.6ec279bbd3da0bbad8cb.jpeg",
     "static/media/imagers.jpeg": "/portfolio/static/media/imagers.7aa8fa94c514cba427d6.jpeg",
@@ -15,6 +15,7 @@
     "static/media/goit_certificate.jpeg": "/portfolio/static/media/goit_certificate.35d7e57c1298aa2cea45.jpeg",
     "static/media/food_app.jpeg": "/portfolio/static/media/food_app.bf78566bebb094daedc8.jpeg",
     "static/media/phonebook.jpeg": "/portfolio/static/media/phonebook.e7c54034b91deab9a6b2.jpeg",
+    "static/media/propart_spain.jpeg": "/portfolio/static/media/propart_spain.15582f1006784bd0247b.jpeg",
     "static/media/rent_car.jpeg": "/portfolio/static/media/rent_car.ea33187fe8c25b417196.jpeg",
     "static/media/1AE5A43C-AA6A-4ABD-8120-A53C75DF756E.jpeg": "/portfolio/static/media/1AE5A43C-AA6A-4ABD-8120-A53C75DF756E.0af08c2961d0b91f2cb0.jpeg",
     "static/media/wall.webp": "/portfolio/static/media/wall.42bf8b505e30ec6ab4d0.webp",
@@ -29,10 +30,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/javascript-1.svg": "/portfolio/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.13b81f87.css.map": "/portfolio/static/css/main.13b81f87.css.map",
-    "main.8d834c92.js.map": "/portfolio/static/js/main.8d834c92.js.map"
+    "main.2b34872a.js.map": "/portfolio/static/js/main.2b34872a.js.map"
   },
   "entrypoints": [
     "static/css/main.13b81f87.css",
-    "static/js/main.8d834c92.js"
+    "static/js/main.2b34872a.js"
   ]
 }
