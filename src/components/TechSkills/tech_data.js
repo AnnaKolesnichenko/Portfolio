@@ -8,7 +8,8 @@ import redux_logo from '../../images/redux.svg';
 import rest_logo from '../../images/rest-api-1.svg';
 import sass_logo from '../../images/sass.png';
 import type_script from '../../images/Typescript_logo_2020.svg.png';
-// import styled_components from '../../images/styled.png';
+import bubble from '../../images/bubbly.png';
+import next from '../../images/next.svg';
 
 export const Tech = [
   {
@@ -51,6 +52,14 @@ export const Tech = [
   {
     image: mui_logo,
     title: 'Material UI',
+  },
+  {
+    image: bubble,
+    title: 'bubble.io',
+  },
+  {
+    image: next,
+    title: 'NextJS',
   },
   // { image: styled_components, title: 'Styled Components' },
 ];
