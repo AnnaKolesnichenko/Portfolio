@@ -40,7 +40,7 @@ export const CreatedApps = [
     image: prop_dubai,
     title: 'ProPart Dubai: Your Gateway to Elite Real Estate in the UAE.',
     techs: 'HTML, RactJS, ReduxToolkit, axios, sass, swiper',
-    appLink: 'prop-dubai.vercel.app/',
+    appLink: 'https://prop-dubai.vercel.app/',
     code: 'https://github.com/AnnaKolesnichenko/prop-dubai',
     role: 'Commercial project. Role: developer (registration, our services, areas)',
   },
