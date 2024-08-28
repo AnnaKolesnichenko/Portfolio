@@ -12,6 +12,7 @@ import goosetrack from '../../images/apps/goose_track.jpeg';
 import mimino from '../../images/apps/mimino.jpeg';
 import propart_spain from '../../images/apps/propart_spain.jpeg';
 import prop_dubai from '../../images/apps/prop_dubai.jpeg';
+import bubbly from '../../images/apps/bubbly.jpeg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const CreatedApps = [
@@ -34,6 +35,15 @@ export const CreatedApps = [
     appLink: 'https://propart-spain-six.vercel.app/ru',
     code: 'https://github.com/AnnaKolesnichenko/propart-spain',
     role: 'Commercial project. Role: developer (areas, property card)',
+  },
+  {
+    id: uuidv4(),
+    image: bubbly,
+    title: 'Test app with bubble.io',
+    techs: 'bubble.io',
+    appLink: 'https://cool-app-72640.bubbleapps.io/version-test/',
+    code: 'https://bubble.io/page?id=cool-app-72640&tab=tabs-1&name=index&type=page',
+    role: 'Test assignment. Role: developer',
   },
   {
     id: uuidv4(),
