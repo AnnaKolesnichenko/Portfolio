@@ -31,7 +31,7 @@ export const CreatedApps = [
     image: propart_spain,
     title: 'Look for the estate of your dream',
     techs: 'HTML, RactJS, NextJS, TypeScript, ReduxToolkit, axios, SCSS',
-    appLink: 'propart-spain-six.vercel.app',
+    appLink: 'https://propart-spain-six.vercel.app/ru',
     code: 'https://github.com/AnnaKolesnichenko/propart-spain',
     role: 'Commercial project. Role: developer (areas, property card)',
   },
