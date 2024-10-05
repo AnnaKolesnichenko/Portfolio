@@ -1,3 +1,4 @@
+import MyProjectTabs from './CentertedTabs';
 import WorkExample from './WorkExample';
 import {
   AppsListStyled,
@@ -11,6 +12,7 @@ const Works = () => {
   return (
     <AppsStyled id="projects">
       <ProjectsTitleStyled>Projects</ProjectsTitleStyled>
+      <MyProjectTabs />
       <AppsListStyled>
         {CreatedApps.map(work => (
           <WorkExample work={work} />
