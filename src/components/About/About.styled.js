@@ -6,10 +6,10 @@ export const AboutStyled = styled.div`
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 20px;
+  padding: 40px;
   box-sizing: border-box;
   background-color: #0f1933;
-  max-width: 1024px;
+  max-width: 1440px;
   border-top: 2px solid #182544;
 
   background-image: linear-gradient(

@@ -6,8 +6,8 @@ export const CertifStyled = styled.div`
   gap: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 20px;
-  max-width: 1024px;
+  padding: 40px;
+  max-width: 1440px;
   box-sizing: border-box;
   background-color: #0f1933;
 

@@ -6,10 +6,10 @@ export const TechStyled = styled.div`
   gap: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding: 40px 20px;
+  padding: 40px;
   box-sizing: border-box;
   background-color: #0f1933;
-  max-width: 1024px;
+  max-width: 1440px;
   border-top: 2px solid #182544;
 `;
 
@@ -27,7 +27,7 @@ export const TechListStyled = styled.ul`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 974px;
+  // max-width: 974px;
 
   gap: 30px;
   list-style: none;

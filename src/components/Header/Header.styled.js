@@ -6,7 +6,8 @@ export const HeaderStyled = styled.div`
   margin-left: auto;
   margin-right: auto;
   background-color: #0f1933;
-  max-width: 1024px;
+  padding: 40px 0;
+  max-width: 1440px;
 `;
 
 export const NavStyled = styled.ul`

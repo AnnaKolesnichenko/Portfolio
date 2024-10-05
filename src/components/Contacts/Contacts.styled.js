@@ -11,7 +11,7 @@ export const ContactsContainerStyled = styled.div`
   padding: 40px 20px;
   box-sizing: border-box;
   background-color: #0f1933;
-  max-width: 1024px;
+  max-width: 1440px;
   border-top: 2px solid #182544;
 `;
 

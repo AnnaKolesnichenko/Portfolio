@@ -11,14 +11,14 @@ export const AppsStyled = styled.div`
   padding: 40px 20px;
   box-sizing: border-box;
   background-color: #0f1933;
-  max-width: 1024px;
+  max-width: 1440px;
   border-top: 2px solid #182544;
 `;
 
 export const AppsListStyled = styled.ul`
   list-style: none;
   margin: 0;
-  max-width: 974px;
+  // max-width: 974px;
   align-items: center;
   justify-content: center;
   padding: 0;
