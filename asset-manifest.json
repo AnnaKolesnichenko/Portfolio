@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.13b81f87.css",
-    "main.js": "/portfolio/static/js/main.a33bd786.js",
+    "main.js": "/portfolio/static/js/main.b57dda6c.js",
     "static/media/sass.png": "/portfolio/static/media/sass.0a9c581d3cda5f9916f1.png",
     "static/media/trending_movies.jpeg": "/portfolio/static/media/trending_movies.6ec279bbd3da0bbad8cb.jpeg",
     "static/media/imagers.jpeg": "/portfolio/static/media/imagers.7aa8fa94c514cba427d6.jpeg",
@@ -25,17 +25,19 @@
     "static/media/goose_track.jpeg": "/portfolio/static/media/goose_track.d18f5912489a22aec0f6.jpeg",
     "static/media/HTML.png": "/portfolio/static/media/HTML.1336fa4c1237f6c1032d.png",
     "static/media/CSS3_logo.svg.png": "/portfolio/static/media/CSS3_logo.svg.443bc827ad57da012b4b.png",
+    "static/media/bubbly.png": "/portfolio/static/media/bubbly.484038c8953c5a59bc76.png",
     "static/media/bose_700.jpeg": "/portfolio/static/media/bose_700.0034a14bd12b70cfd67c.jpeg",
     "static/media/back.avif": "/portfolio/static/media/back.cd10a30c30f0bb8f9cf9.avif",
     "static/media/rest-api-1.svg": "/portfolio/static/media/rest-api-1.64ec3ad971000830e7d9372dbeb59103.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/next.svg": "/portfolio/static/media/next.1b2b52c044b9dcea988e68b966864c5a.svg",
     "index.html": "/portfolio/index.html",
     "static/media/javascript-1.svg": "/portfolio/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.13b81f87.css.map": "/portfolio/static/css/main.13b81f87.css.map",
-    "main.a33bd786.js.map": "/portfolio/static/js/main.a33bd786.js.map"
+    "main.b57dda6c.js.map": "/portfolio/static/js/main.b57dda6c.js.map"
   },
   "entrypoints": [
     "static/css/main.13b81f87.css",
-    "static/js/main.a33bd786.js"
+    "static/js/main.b57dda6c.js"
   ]
 }
