@@ -1,53 +1,51 @@
-import React, { useState } from 'react';
-import { Tabs, Input } from 'antd';
-const { TabPane } = Tabs;
+import React from 'react';
+import { Tabs, Tab } from '@mui/material';
+import { styled } from '@mui/system';
 
-const MyProjectTabs = () => {
-  const projects = {
-    учебные: ['Project 1', 'Project 2', 'Project 3'],
-    тестовые: ['Test 1', 'Test 2'],
-    рабочие: ['Work 1', 'Work 2', 'Work 3'],
+const CustomTab = styled(Tab)(({ theme, isActive }) => ({
+  color: isActive ? '#e2e8f0' : 'grey',
+  '&.Mui-selected': {
+    color: '#e2e8f0',
+  },
+}));
+
+const MyProjectTabsStyled = ({ onTagChange }) => {
+  const [activeTab, setActiveTab] = React.useState('all');
+
+  const handleTabChange = (event, newValue) => {
+    setActiveTab(newValue);
+    onTagChange(newValue);
   };
 
-  const [filter, setFilter] = useState('');
-
-  const filteredProjects = list =>
-    list.filter(project =>
-      project.toLowerCase().includes(filter.toLowerCase())
-    );
-
   return (
-    <div>
-      {/* <Input
-        placeholder="Поиск по проектам"
-        value={filter}
-        onChange={e => setFilter(e.target.value)}
-      /> */}
-      <Tabs defaultActiveKey="1">
-        <TabPane tab="Учебные проекты" key="1">
-          <ul>
-            {filteredProjects(projects.учебные).map((project, index) => (
-              <li key={index}>{project}</li>
-            ))}
-          </ul>
-        </TabPane>
-        <TabPane tab="Тестовые проекты" key="2">
-          <ul>
-            {filteredProjects(projects.тестовые).map((project, index) => (
-              <li key={index}>{project}</li>
-            ))}
-          </ul>
-        </TabPane>
-        <TabPane tab="Рабочие проекты" key="3">
-          <ul>
-            {filteredProjects(projects.рабочие).map((project, index) => (
-              <li key={index}>{project}</li>
-            ))}
-          </ul>
-        </TabPane>
-      </Tabs>
-    </div>
+    <Tabs
+      value={activeTab}
+      onChange={handleTabChange}
+      centered
+      TabIndicatorProps={{ style: { backgroundColor: '#e2e8f0' } }}
+    >
+      <CustomTab
+        label="All Projects"
+        value="all"
+        isActive={activeTab === 'all'}
+      />
+      <CustomTab
+        label="Study Projects"
+        value="study"
+        isActive={activeTab === 'study'}
+      />
+      <CustomTab
+        label="Test Projects"
+        value="test"
+        isActive={activeTab === 'test'}
+      />
+      <CustomTab
+        label="Work Projects"
+        value="work"
+        isActive={activeTab === 'work'}
+      />
+    </Tabs>
   );
 };
 
-export default MyProjectTabs;
+export default MyProjectTabsStyled;

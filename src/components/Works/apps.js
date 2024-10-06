@@ -26,6 +26,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/food-app/',
     code: 'https://github.com/AnnaKolesnichenko/food-app',
     role: 'Role: developer',
+    tag: 'study',
   },
   {
     id: uuidv4(),
@@ -35,6 +36,7 @@ export const CreatedApps = [
     appLink: 'https://propart-spain-six.vercel.app/ru',
     code: 'https://github.com/AnnaKolesnichenko/propart-spain',
     role: 'Commercial project. Role: developer (areas, property card)',
+    tag: 'work',
   },
   {
     id: uuidv4(),
@@ -44,6 +46,7 @@ export const CreatedApps = [
     appLink: 'https://cool-app-72640.bubbleapps.io/version-test/',
     code: 'https://bubble.io/page?id=cool-app-72640&tab=tabs-1&name=index&type=page',
     role: 'Test assignment. Role: developer',
+    tag: 'test',
   },
   {
     id: uuidv4(),
@@ -53,6 +56,7 @@ export const CreatedApps = [
     appLink: 'https://prop-dubai.vercel.app/',
     code: 'https://github.com/AnnaKolesnichenko/prop-dubai',
     role: 'Commercial project. Role: developer (registration, our services, areas)',
+    tag: 'work',
   },
   {
     id: '2a',
@@ -62,6 +66,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/medic-app/',
     code: 'https://github.com/AnnaKolesnichenko/medic-app',
     role: 'Test assignment. Role: developer',
+    tag: 'test',
   },
 
   {
@@ -72,6 +77,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/goit-react-hw-04-images/',
     code: 'https://github.com/AnnaKolesnichenko/goit-react-hw-04-images',
     role: 'Role: developer',
+    tag: 'study',
   },
   {
     id: '4a',
@@ -81,6 +87,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/goit-react-hw--05-movies/',
     code: 'https://github.com/AnnaKolesnichenko/goit-react-hw--05-movies',
     role: 'Role: developer',
+    tag: 'study',
   },
   {
     id: '5a',
@@ -92,6 +99,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/goit-react-hw-08-phonebook/',
     code: 'https://github.com/AnnaKolesnichenko/goit-react-hw-08-phonebook',
     role: 'Role: developer',
+    tag: 'study',
   },
   // {
   //   id: '6a',
@@ -113,6 +121,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/car-dealership',
     code: 'https://github.com/AnnaKolesnichenko/car-dealership',
     role: 'Role: developer',
+    tag: 'study',
   },
   {
     id: '8a',
@@ -122,6 +131,7 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/bose_NC_700/',
     code: 'https://github.com/AnnaKolesnichenko/bose_NC_700',
     role: 'Role: developer',
+    tag: 'study',
   },
   {
     id: '9a',
@@ -131,6 +141,7 @@ export const CreatedApps = [
     appLink: 'https://lapanu4.github.io/project-Tenth_Team/',
     code: 'https://github.com/LaPaNu4/project-Tenth_Team',
     role: 'Team Project. Role: My Library',
+    tag: 'study',
   },
   {
     id: '10a',
@@ -141,6 +152,7 @@ export const CreatedApps = [
     appLink: 'https://yura-platonov.github.io/GooseTrack_frontend/',
     code: 'https://github.com/Yura-Platonov/GooseTrack_frontend',
     role: 'Team Project. Role: Login, Register',
+    tag: 'test',
   },
   {
     id: '11a',
@@ -150,6 +162,7 @@ export const CreatedApps = [
     appLink: 'https://valeru4.github.io/mimino-team-project/',
     code: 'https://github.com/Valeru4/mimino-team-project',
     role: 'Team Project. Role: Header, 2-room apt booking',
+    tag: 'study',
   },
   {
     id: '12a',
@@ -159,5 +172,6 @@ export const CreatedApps = [
     appLink: 'https://annakolesnichenko.github.io/goit-markup-hw-07/',
     code: 'https://github.com/AnnaKolesnichenko/goit-markup-hw-07',
     role: 'Role: developer',
+    tag: 'study',
   },
 ];
