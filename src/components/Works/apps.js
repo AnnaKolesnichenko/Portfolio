@@ -3,6 +3,8 @@ import webstudio from '../../images/apps/web_design.jpeg';
 import image_searcher from '../../images/apps/imagers.jpeg';
 import trending_movies from '../../images/apps/trending_movies.jpeg';
 import phonebook from '../../images/apps/phonebook.jpeg';
+import gist from '../../images/apps/gist.jpeg';
+import native from '../../images/apps/test_ntv.jpeg';
 //import converter from '../../images/apps/converter.jpeg';
 import medic_app from '../../images/apps/1AE5A43C-AA6A-4ABD-8120-A53C75DF756E.jpeg';
 import car_dealership from '../../images/apps/rent_car.jpeg';
@@ -57,6 +59,26 @@ export const CreatedApps = [
     code: 'https://github.com/AnnaKolesnichenko/prop-dubai',
     role: 'Commercial project. Role: developer (registration, our services, areas)',
     tag: 'work',
+  },
+  {
+    id: uuidv4(),
+    image: native,
+    title: 'Test app React Native',
+    techs: 'React Native, axios',
+    appLink: 'https://github.com/AnnaKolesnichenko/native-test-app',
+    code: 'https://github.com/AnnaKolesnichenko/native-test-app',
+    role: 'Test assignment. Role: developer',
+    tag: 'test',
+  },
+  {
+    id: uuidv4(),
+    image: gist,
+    title: 'Test app React Native',
+    techs: 'React Native, axios',
+    appLink: 'https://github.com/AnnaKolesnichenko/the-gist-test',
+    code: 'https://github.com/AnnaKolesnichenko/the-gist-test',
+    role: 'Test assignment. Role: developer',
+    tag: 'test',
   },
   {
     id: '2a',
