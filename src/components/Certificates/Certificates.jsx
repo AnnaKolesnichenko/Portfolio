@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { GiGraduateCap } from 'react-icons/gi';
+import { MdWorkHistory } from 'react-icons/md';
 
 import {
   CertifImgStyled,
@@ -32,7 +33,7 @@ const Certificates = () => {
   };
   return (
     <CertifStyled id="certificates">
-      <CertifMainTitle>Certificates / education</CertifMainTitle>
+      <CertifMainTitle>Certificates / education </CertifMainTitle>
       <CertifiListStyled>
         <CertifiListStyled>
           {Awards.map(award => (
@@ -80,6 +81,23 @@ const Certificates = () => {
           <EducationDateStyled>June, 2002</EducationDateStyled>
         </EducationItemStyled>
       </EducationListStyled>
+      <CertifMainTitle>career</CertifMainTitle>
+      <EducationItemStyled>
+        <MdWorkHistory style={{ fill: '#94a3b8' }} />
+        <EducationCourseStyled>Front-end Developer</EducationCourseStyled>
+        <EducationByStyled>VeroCasa</EducationByStyled>
+        <EducationDateStyled>March, 2024 - June, 2024</EducationDateStyled>
+      </EducationItemStyled>
+      <EducationItemStyled>
+        <MdWorkHistory style={{ fill: '#94a3b8' }} />
+        <EducationCourseStyled>
+          English language interpreter
+        </EducationCourseStyled>
+        <EducationByStyled>Self-employed</EducationByStyled>
+        <EducationDateStyled>
+          September, 2006 - February, 2022
+        </EducationDateStyled>
+      </EducationItemStyled>
     </CertifStyled>
   );
 };
